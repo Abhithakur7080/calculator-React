@@ -19,18 +19,18 @@ open[] to view it in your browser
 
 ## Features
 
-#### Calculate
+#### `Calculate`
 On Calculate function calulate the value stored on display and show result.
 If calculate show error then error will clear from display in 2sec.
 
-#### Clear
+#### `Clear`
 On Clear function clear all the value given on display.
 
-#### Handle Click
+#### `Handle Click`
 In this function target the value given by input button and add on the last of the value.
 
-#### Back
+#### `Back`
 On Back function remove only last 1 value given on the display.
 
-#### handle minus/plus
+#### `Handle minus/plus`
 In this function add and remove of '-' on the start of the value on the display.
