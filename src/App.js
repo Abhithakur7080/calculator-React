@@ -4,6 +4,8 @@ import './App.css';
 import Calculator from './component/calculater';
 //GETTING HOOKS
 import { useState } from 'react';
+//GETTING HELMET FOR APP NAME AND DESCRIPTION
+import { Helmet } from 'react-helmet';
 
 function App() {
   //making state to view value in screen and set
@@ -59,6 +61,11 @@ function App() {
 
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Calculator</title>
+        <meta name="description" content="This is a Simple Calculator handle some features like: addition, substraction, etc." />
+      </Helmet>
     <Calculator
     result = {result}
     calculate = {calculate}
