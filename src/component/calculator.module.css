@@ -8,6 +8,7 @@
     border-radius: 15px;
     box-shadow: 5px 5px 20px black;
     position: relative;
+    margin-top: 10vw;
 }
 /* toggle styling */
 .toggle{
